@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "hictachoe:lib"
+
+    - path: "./app/Main.hs"
+      component: "hictachoe:exe:hictachoe-exe"
+
+    - path: "./app/Paths_hictachoe.hs"
+      component: "hictachoe:exe:hictachoe-exe"
+
+    - path: "./test"
+      component: "hictachoe:test:hictachoe-test"
